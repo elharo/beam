@@ -20,7 +20,7 @@
 # Example Pipelines
 
 The examples included in this module serve to demonstrate the basic
-functionality of Apache Beam, and act as starting points for
+functionality of Apache Beam, and act as starting points for 
 the development of more complex pipelines.
 
 ## Word Count
