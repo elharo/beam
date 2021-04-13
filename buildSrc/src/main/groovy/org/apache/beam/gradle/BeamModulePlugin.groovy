@@ -1342,30 +1342,30 @@ class BeamModulePlugin implements Plugin<Project> {
                     subscribe = "dev-subscribe@beam.apache.org"
                     unsubscribe = "dev-unsubscribe@beam.apache.org"
                     post = "dev@beam.apache.org"
-                    archive = "http://www.mail-archive.com/dev%beam.apache.org"
+                    archive = "https://mail-archives.apache.org/mod_mbox/beam-dev/"
                   }
                   mailingList {
                     name = "Beam User"
                     subscribe = "user-subscribe@beam.apache.org"
                     unsubscribe = "user-unsubscribe@beam.apache.org"
                     post = "user@beam.apache.org"
-                    archive = "http://www.mail-archive.com/user%beam.apache.org"
+                    archive = "https://mail-archives.apache.org/mod_mbox/beam-user/"
                   }
                   mailingList {
                     name = "Beam Commits"
                     subscribe = "commits-subscribe@beam.apache.org"
                     unsubscribe = "commits-unsubscribe@beam.apache.org"
                     post = "commits@beam.apache.org"
-                    archive = "http://www.mail-archive.com/commits%beam.apache.org"
+                    archive = "https://mail-archives.apache.org/mod_mbox/beam-commits/"
                   }
                 }
                 developers {
                   developer {
                     name = "The Apache Beam Team"
                     email = "dev@beam.apache.org"
-                    url = "http://beam.apache.org"
+                    url = "https://beam.apache.org"
                     organization = "Apache Software Foundation"
-                    organizationUrl = "http://www.apache.org"
+                    organizationUrl = "https://www.apache.org"
                   }
                 }
               }
